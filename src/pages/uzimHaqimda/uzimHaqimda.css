@@ -1,0 +1,31 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background: var(--bg-color);
+}
+
+.abouImg {
+    width: 28vw;
+    border-radius: 2rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 4rem;
+}
+
+.about_content h2 {
+    text-align: left;
+}
+
+.about_content h3 {
+    font-size: 2.6rem;
+}
+
+.about_content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 4rem;
+}

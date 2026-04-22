@@ -1,0 +1,36 @@
+.services_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services_box {
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color);
+    padding: 2rem 3rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: .2rem solid var(--snd-bg-color);
+    transition: .3s;
+}
+
+.services_box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.05);
+}
+
+.services_icen{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services_h3 {
+    font-size: 2.6rem;
+}
+
+.services_p {
+    font-size: 1.6rem;
+    margin: 1rem 0 2rem;
+}

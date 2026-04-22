@@ -1,0 +1,38 @@
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.input_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.input_box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    background: var(--snd-bg-color);
+    color: var(--text-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.input_box input {
+    width: 49%;
+}
+
+.contact form textarea {
+    resize: none;
+    height: 15rem;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
