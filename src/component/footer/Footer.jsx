@@ -2,6 +2,7 @@ import React from 'react'
 import '../footer/footer.css'
 
 import { FaAngleUp } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -11,9 +12,9 @@ const Footer = () => {
                 </p>
             </div>
             <div className="footer_icenTop">
-                <a href="#home">
+                <Link to="/">
                   <FaAngleUp className='footer_icen'/>
-                  </a>
+                  </Link>
             </div>
         </footer>
   )
