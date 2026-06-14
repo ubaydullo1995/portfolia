@@ -29,3 +29,36 @@
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
 }
+
+/* modal */
+.openModal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open {
+    background: white;
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 600px;
+    position: relative;
+}
+
+.closeModal {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(231, 30, 30);
+}
